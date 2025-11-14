@@ -17,14 +17,14 @@ nav {
 }
 
 .header__links-list {
-    display: flex; 
+    display: flex;
     gap: 30px; 
     width: 391.48px;
     list-style: circle;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .header__links-list-item_no-bullit {
@@ -47,7 +47,7 @@ nav {
     font-style: normal;
     font-size: 18px;
     line-height: 135%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .cover {
@@ -76,7 +76,6 @@ nav {
     flex-direction: column;
     gap: 20px;
     font-weight: 700;
-    font-style: bold;
     font-size: 100px;
     line-height: 115%;
     color: white;
@@ -108,7 +107,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: relative;
-    z-index: 3;    
+    z-index: 3;
 }
 
 .cover__description-text {
@@ -117,7 +116,7 @@ nav {
     font-weight: 400;
     font-size: 22px;
     line-height: 130%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     word-spacing: 19px; 
     color: white;
 }
@@ -132,7 +131,7 @@ nav {
     font-weight: 500;
     font-size: 22px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: white;
 }
 
@@ -143,10 +142,9 @@ nav {
 .card__title {
     height: 47px;
     font-weight: 700;
-    font-style: bold;
     font-size: 40px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color:black;
     padding-top: 5px;
     padding-left: 40px;
@@ -260,7 +258,7 @@ nav {
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .about__column-right {
@@ -284,14 +282,15 @@ nav {
     font-style: normal;
     font-size: 18px;
     line-height: 135%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .footer__menu {
     font-weight: 400;
     font-size: 18px;
     line-height: 122%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
+    padding-right: 27px;
 }
 
 .footer__menu-list {
